@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-style: arial;
+    width: 100%;
+    text-align: center;
+    background-color: pink;
+    padding: 20px 0;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+aside {
+    width: 235px;
+    padding: 20px;
+    background-color: pink;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    border-right: 2px solid #ccc;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.informacoes span {
+    margin-right: 20px;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+.testee {
+    height: 200px; margin: 0 auto; display: block;
+}
+
+.testeee {
+    height: 20px;
+    vertical-align: middle;
+    
+}
+.titulo{
+    text-decoration: underline;
+}
+.subtitulo{
+    font-weight: bold;}
